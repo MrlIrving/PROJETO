@@ -1,0 +1,885 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.doeaqui,
+.faleconosco,
+.sobrenos,
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+
+.barra {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 99;
+}
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 250px;
+    
+
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.instituto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 121px;
+    text-align: center;
+    margin-top: 10%;
+    align-items: center;
+    
+    color: #7D1300;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    overflow: hidden;
+
+}
+
+.slides {
+    width: 400%;
+    height: 700px;
+    display: flex;
+
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 1440px;
+    border-radius: 20px;
+    
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 1440px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #850808;
+}
+
+#radio1:checked~.primeiro {
+    margin-left: 0;
+
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
+
+}
+
+#radio4:checked~.primeiro {
+    margin-left: -75%;
+
+}
+
+.navigation-auto div {
+    border: 2px solid #ccba1c;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 1440px;
+    margin-top: 660px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: #850808;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: #850808;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: #850808;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: #850808;
+}
+
+.funciona {
+    background-color: #FEC208;
+    height: 450px;
+    width: 100;
+
+}
+
+.comofunciona {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+
+    color: #000000;
+}
+
+.textofunciona {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+    color: #000000;
+}
+
+.produtos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    background-color: #FEC208;
+    border-radius: 20px;
+    width: 200px;
+    padding: 5PX 5PX 5PX 5PX;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+    color: #000000;
+}
+
+.compras1 {
+    margin-left: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 1500px;
+}
+
+.camiseta {
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+
+
+.titulocamisa {
+    position: absolute;
+    margin-left: 300px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 100px;
+
+    color: #000000;
+
+}
+
+.tamanho {
+    position: absolute;
+    margin-left: 300px;
+    top: 120px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.preco {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 150px;
+}
+
+.disponivel {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 200px;
+}
+
+.porcecamisa{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.linha{
+    margin-top: 20px;
+    width: 100%;
+    height: 0px; 
+    border: 0.3px solid #000000;
+}   
+
+.comprar:hover{
+    background-color: #FF2D08;
+    transition: 1s;
+}
+
+.comprarsueter:hover{
+    background-color:  #FF2D08;
+    transition: 1s;
+}
+
+.comprarmeias:hover{
+    background-color:  #FF2D08;
+    transition: 1s;
+}
+
+.comprarbolsa:hover{
+    background-color:  #FF2D08;
+    transition: 1s;
+}
+
+
+.comprar {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    margin-left: 370px;
+    top: 300px;
+    background-color: #FEC208;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.compras2 {
+    margin-left: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 550px;
+}
+
+.sueter {
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+
+
+.titulosueter {
+    position: absolute;
+    margin-left: 300px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 250px;
+
+    color: #000000;
+
+}
+
+.tamanhosueter {
+    position: absolute;
+    margin-left: 300px;
+    top: 120px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.precosueter {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 150px;
+}
+
+.disponivelsueter {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 200px;
+}
+
+.comprarsueter {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    margin-left: 370px;
+    top: 300px;
+    background-color: #FEC208;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.porcesueter{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px; 
+}
+
+.compras3 {
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 550px;
+    top: 0;
+    margin-left: 700px;
+}
+
+.meias {
+    border: 2px solid #000000;
+    margin-right: 300px;
+    border-radius: 20px;
+}
+
+
+
+.titulomeias {
+    position: absolute;
+    margin-left: 300px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 250px;
+
+    color: #000000;
+
+}
+
+.tamanhomeias {
+    position: absolute;
+    margin-left: 300px;
+    top: 120px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.precomeias {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 150px;
+}
+
+.disponivelmeias {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 200px;
+}
+
+.comprarmeias {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    margin-left: 370px;
+    top: 300px;
+    background-color: #FEC208;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.porcemeias{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.compras4 {
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 550px;
+    top: 0;
+    margin-left: 700px;
+}
+
+.bolsa {
+    border: 2px solid #000000;
+    margin-right: 300px;
+    border-radius: 20px;
+}
+
+
+
+.titulobolsa {
+    position: absolute;
+    margin-left: 300px;
+    top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 150px;
+
+    color: #000000;
+
+}
+
+.tamanhobolsa {
+    position: absolute;
+    margin-left: 300px;
+    top: 120px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.precobolsa {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 150px;
+}
+
+.disponivelbolsa {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-left: 300px;
+    top: 200px;
+}
+
+.comprarbolsa {
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    margin-left: 370px;
+    top: 300px;
+    background-color: #FEC208;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.porcebolsa{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.bolsa,
+.sueter,
+.camiseta,
+.meias {
+    width: 280px;
+    height: 400px;
+}
+
+.final{
+    border-top: solid black 2px;
+    background-color: #9C0000;
+}
+
+.politicasetermo {
+    height: 28px;
+    left: 300px;
+    top: 3050px;
+    width: 400px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.politicasdeprivacidade {
+    width: 225px;
+    height: 23px;
+    left: 500px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    width: 200px;
+    height: 23px;
+    left: 300px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+
+
+.contato {
+    width: 74px;
+    height: 23px;
+    left: 300px;
+    top: 3190px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.acessoriaeimprensa {
+    width: 310px;
+    height: 23px;
+    left: 440px;
+    top: 3190px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    width: 160px;
+    height: 28px;
+    left: 300px;
+    top: 3140px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.twitter {
+    right: 300px;
+    top: 3110PX;
+    bottom: 1%;
+    width: 25PX;
+}
+
+.facebook {
+    right: 350px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.insta {
+    right: 400px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.linkedin {
+    right: 450px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.youtube {
+    right: 500px;
+    top: 3110PX;
+    width: 25PX;
+}
+
+button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}

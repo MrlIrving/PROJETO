@@ -1,0 +1,451 @@
+@media screen and (max-width:25rem) {
+    header {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .doeaqui,
+.faleconosco,
+.sobrenos,
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+
+.barra {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 99;
+    
+}
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 180px;
+    height: 90px;
+    
+
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+}
+
+    .bebecamera1 {
+
+        width: 100%;
+        height: 420px;
+        left: -1px;
+        top: 66px;
+    }
+
+    .titulo1 {
+        top: 15px;
+        width: 264px;
+        height: 207px;
+        left: 13px;
+        margin-top: 10px;
+
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 40px;
+
+    }
+
+    .texto1 {
+        top: 120px;
+        left: 11px;
+        font-size: 15px;
+        width: 50%;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        text-align: justify;
+        font-weight: 200;
+    }
+
+    .botaodoeaqui {
+
+        width: 80px;
+        height: 25px;
+        left: 13px;
+        top: 65%;
+
+        font-size: 13px;
+        line-height: 5px;
+        padding: 10px 2px 3px 5px;
+        align-items: center;
+
+
+    }
+
+    .coracao2 {
+        width: 13px;
+        height: 13px;
+        top: 30px;
+    }
+
+    .barraamarela {
+        background-color: #fec208;
+        height: 15px;
+        top: 555px;
+        width: 100%;
+        z-index: 98;
+    }
+
+    .teladepropaganda {
+        position: absolute;
+        background: linear-gradient(180deg, #D80812 0%, #AD3400 100%);
+        width: 100%;
+        height: 550px;
+        top: 565px;
+        z-index: 9;
+    }
+
+    .inst {
+        z-index: 9;
+        top: 450px;
+        height: 65px;
+        width: 55px;
+        left: 15px;
+    }
+
+    .mc {
+        z-index: 9;
+        top: 470px;
+        left: 70px;
+        height: 40px;
+    }
+
+    .titulopromocao {
+        z-index: 9;
+        width: 60%;
+        height: 39px;
+        left: 20%;
+        top: 5%;
+
+        text-align: center;
+        font-size: 36px;
+        align-items: center;
+    }
+
+    .burguer {
+        position: absolute;
+        width: 75%;
+        height: 50%;
+        left: -70px;
+        top: 15%;
+
+    }
+
+    .textopromocao {
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        left: 57%;
+        top: 25%;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .botaoconfira {
+        position: relative;
+        width: 100px;
+        height: 45px;
+        left: 60%;
+        top: 70%;
+
+        font-size: 20px;
+        font-weight: 700;
+        padding: 1px 3px 1px 3px;
+    }
+
+    .compre {
+
+        width: 224px;
+        height: 10px;
+        left: 20%;
+        top: 1175px;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .compretexto1 {
+        position: absolute;
+        width: 80%;
+        height: 65px;
+        left: 10%;
+        top: 1225px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .linha {
+        position: absolute;
+        width: 258px;
+        height: 0px;
+        left: calc(50% - 258px/2 - 2px);
+        top: 1325px;
+    }
+
+    .botaonossaloja {
+
+        width: 140px;
+        height: 40px;
+        left: 30%;
+        top: 1375px;
+
+        font-size: 20px;
+        font-weight: 700;
+        padding: 5px 3px 5px 3px;
+    }
+
+    .sacola {
+        width: 20px;
+        height: 20px;
+        top: 100px;
+    }
+
+    .linha2 {
+        position: absolute;
+        width: 254.01px;
+        height: 0px;
+        left: calc(50% - 254.01px/2 - 4px);
+        top: 1475px;
+    }
+
+    .compretexto2 {
+        position: absolute;
+        width: 80%;
+        height: 65px;
+        left: 10%;
+        top: 1500px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    .crianca {
+        position: absolute;
+        width: 100%;
+        height: 320px;
+        left: 0px;
+        top: 1650px;
+
+        background: linear-gradient(180deg, #1B0400 0%, #7D1300 46.67%);
+    }
+
+    .titulolove {
+        position: absolute;
+        width: 239px;
+        height: 24px;
+        left: calc(50% - 239px/2 + 0.5px);
+        top: 10%;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    .b {
+        top: 270%;
+
+    }
+
+    .criancaimg {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 300px;
+        height: 175px;
+        left: calc(50% - 300px/2);
+        top: 35%;
+
+        background: url(image.png);
+        border: 0.5px solid #FFFFFF;
+        border-radius: 37px;
+    }
+
+    .ultima {
+        background-color: #ffffff;
+        height: 400px;
+        top: 15%;
+    }
+
+    .tresmilhao {
+        position: absolute;
+        width: 528px;
+        height: 109px;
+        left: 300px;
+        top: 3800px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 109px;
+
+        background: linear-gradient(180deg, #FF2600 0%, #721100 53.12%, #000000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .tresmilhao {
+        text-align: center;
+        width: 211px;
+        height: 44px;
+        left: 23%;
+        top: 2000px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .textomilhao {
+        position: absolute;
+        width: 199px;
+        height: 49px;
+        left: calc(50% - 199px/2 + 0.5px);
+        top: 2075px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: justify;
+    }
+
+    .maos {
+        
+        width: 40%;
+        height: 20%;
+        left: 30%;
+        top: 2150px;
+        
+    }
+}
+
+button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
